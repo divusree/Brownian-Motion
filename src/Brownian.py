@@ -1,7 +1,6 @@
 """
 Script to generate and run 2D Brownian walk (BrownianPath) and
 plot it (BrownianSim).
-
 """
 
 import numpy as np
@@ -24,7 +23,3 @@ def BrownianSim(bPath):
     plt.xticks([], [])
     plt.yticks([], [])
     plt.savefig("Brownian2D.png")
-
-
-bPaths = BrownianPath(100)
-BrownianSim(bPaths)

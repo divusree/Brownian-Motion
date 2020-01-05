@@ -6,7 +6,8 @@ Minor project on 2D Brownian motion to get used to basics of GitHub. For issues,
 
 Copy this folder into your parent app and import Brownian.py. The file contains 2 functions: `BrownianPath` and `BrownianSim` that generates and displays a 2D Brownian walk for *nsteps* which is the number of increments. 
 
-```from Brownian import *
+```
+from Brownian import *
 
 bPaths = BrownianPath(100)
 BrownianSim(bPaths)
